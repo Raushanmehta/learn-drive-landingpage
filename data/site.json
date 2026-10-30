@@ -1,0 +1,564 @@
+{
+  "DriveLearn": {
+    "templateComponents": {
+      "template-1": {
+        "shared": {
+          "topbar": "DriveLearnTopbar1",
+          "navbar": "DriveLearnNavbar1",
+          "footer": "DriveLearnFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              "DriveLearnHero1",
+              "DriveLearnAbout1",
+              "DriveLearnServices1",
+              "DriveLearnWhyChooseUs1",
+              "DriveLearnStats1",
+              "DriveLearnTestimonial1",
+              "DriveLearnFaq1"
+            ]
+          }
+        }
+      }
+    },
+    "sections": {
+      "topbar": {
+        "variants": {
+          "DriveLearnTopbar1": {
+            "logo": {
+              "src": "/logo/logo-black.webp",
+              "alt": "DriveLearn Driving School",
+              "width": 380,
+              "height": 125,
+              "href": "/"
+            },
+            "contactInfo": {
+              "location": {
+                "line1": "3170 Rosewood Lane Unit 200,",
+                "line2": "Beverly Hills, CA 90210"
+              },
+              "phone": {
+                "number": "+1 000000000",
+                "href": "tel:+1000000000"
+              },
+              "emailTiming": {
+                "email": "info@xyz.com",
+                "href": "mailto:info@xyz.com",
+                "timing": "Mon - Sun: 9:00 AM - 8:00 PM"
+              }
+            }
+          }
+        }
+      },
+      "navbar": {
+        "variants": {
+          "DriveLearnNavbar1": {
+            "navLinks": [
+              {
+                "name": "Home",
+                "href": "#home"
+              },
+              {
+                "name": "About Us",
+                "href": "#about"
+              },
+              {
+                "name": "Courses",
+                "href": "#services"
+              },
+              {
+                "name": "Why Choose Us",
+                "href": "#why-choose-us"
+              },
+              {
+                "name": "Testimonials",
+                "href": "#testimonials"
+              },
+              {
+                "name": "FAQs",
+                "href": "#faqs"
+              }
+            ],
+            "cta": {
+              "text": "Contact Us",
+              "href": "#contact"
+            }
+          }
+        }
+      },
+      "footer": {
+        "variants": {
+          "DriveLearnFooter1": {
+            "logo": {
+              "src": "/logo/logo-white.webp",
+              "alt": "DriveLearn Driving School",
+              "width": 380,
+              "height": 125,
+              "href": "/"
+            },
+            "description": "At DriveLearn, we dedicate ourselves to delivering exceptional motorist coaching with accredited instructors, dual-control training cars and unwavering priority on road safety for all.",
+            "bgImage": "/images/footer-car-bg.webp",
+            "quickLinks": [
+              {
+                "name": "Home",
+                "href": "#home"
+              },
+              {
+                "name": "About Us",
+                "href": "#about"
+              },
+              {
+                "name": "Courses",
+                "href": "#services"
+              },
+              {
+                "name": "Why Choose Us",
+                "href": "#why-choose-us"
+              },
+              {
+                "name": "Testimonials",
+                "href": "#testimonials"
+              },
+              {
+                "name": "FAQs",
+                "href": "#faqs"
+              }
+            ],
+            "ourServices": [
+              {
+                "name": "Novice Driver Foundation",
+                "href": "#services"
+              },
+              {
+                "name": "Official License Preparation",
+                "href": "#services"
+              },
+              {
+                "name": "Car Safety & Mechanics",
+                "href": "#services"
+              },
+              {
+                "name": "Confidence Booster Sessions",
+                "href": "#services"
+              },
+              {
+                "name": "Accelerated Express Program",
+                "href": "#services"
+              }
+            ],
+            "contact": {
+              "address": {
+                "line1": "3170 Rosewood Lane Unit 200,",
+                "line2": "Beverly Hills, CA 90210"
+              },
+              "phone": {
+                "display": "+1 000000000",
+                "href": "tel:+1000000000"
+              },
+              "email": {
+                "display": "info@xyz.com",
+                "href": "mailto:info@xyz.com"
+              }
+            },
+            "socialLinks": [
+              {
+                "platform": "Facebook",
+                "href": "https://facebook.com",
+                "label": "Facebook"
+              },
+              {
+                "platform": "Instagram",
+                "href": "https://instagram.com",
+                "label": "Instagram"
+              },
+              {
+                "platform": "YouTube",
+                "href": "https://youtube.com",
+                "label": "YouTube"
+              },
+              {
+                "platform": "LinkedIn",
+                "href": "https://linkedin.com",
+                "label": "LinkedIn"
+              }
+            ],
+            "copyright": "© 2026 DriveLearn. All Rights Reserved. Powered by Lestow"
+          }
+        }
+      },
+      "hero": {
+        "variants": {
+          "DriveLearnHero1": {
+            "slides": [
+              {
+                "id": 1,
+                "eyebrow": "Master The Roads With Top Confidence",
+                "titleTop": "Accredited",
+                "badge": "Motor Coaching",
+                "titleBottom": "For Complete Road Safety",
+                "description": "Train to drive with licensed educators and premium dual-control vehicles. Clear, supportive and individualized motoring classes for every learner.",
+                "image": "/images/hero-driving-lesson.webp"
+              },
+              {
+                "id": 2,
+                "eyebrow": "Build Real Skills Behind Wheels",
+                "titleTop": "Licensed",
+                "badge": "Patient Mentors",
+                "titleBottom": "At Every Stage",
+                "description": "Step-by-step driving modules matched to your schedule. Acquire proactive safety awareness and achieve total calm across busy streets.",
+                "image": "/images/hero-driving-slide2.webp"
+              },
+              {
+                "id": 3,
+                "eyebrow": "Clear Your License Exam On First Try",
+                "titleTop": "Proven",
+                "badge": "Test Readiness",
+                "titleBottom": "With Top Evaluation Scores",
+                "description": "Thorough exam coaching, simulated road trials, and official advice to let you clear your state licensing assessment smoothly.",
+                "image": "/images/hero-driving-slide3.webp"
+              }
+            ]
+          }
+        }
+      },
+      "about": {
+        "variants": {
+          "DriveLearnAbout1": {
+            "eyebrow": "About DriveLearn",
+            "title": {
+              "part1": "Master Smooth Driving,",
+              "part2": "Travel With Assurance."
+            },
+            "description": "We are an esteemed driving institute focused on delivering secure, practical and skill-oriented vehicular guidance. Our licensed instructors assist you in acquiring core control, keen road awareness and highway regulations for every journey ahead.",
+            "experienceBadge": {
+              "number": "12+",
+              "label": "Years Excellence"
+            },
+            "images": {
+              "main": "/images/hero-driving-lesson.webp",
+              "overlapping": "/images/about-woman-keys.webp",
+              "videoThumb": "/images/about-video-thumb.webp"
+            },
+            "checkListCol1": [
+              "Qualified Trainers",
+              "Real-Road Practice",
+              "Precision Parking",
+              "Defensive Road Habits"
+            ],
+            "checkListCol2": [
+              "Custom Schedules",
+              "Latest Dual-Control Cars",
+              "One-on-One Mentoring",
+              "99% First-Time Pass"
+            ],
+            "cta": {
+              "text": "EXPLORE COURSES",
+              "href": "#services"
+            },
+            "videoModal": {
+              "title": "About DriveLearn Video",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?autoplay=1"
+            }
+          }
+        }
+      },
+      "services": {
+        "variants": {
+          "DriveLearnServices1": {
+            "eyebrow": "Featured Programs",
+            "title": {
+              "part1": "Comprehensive",
+              "part2": "Driver Curriculums"
+            },
+            "description": "We deliver an extensive selection of motorist training programs designed to equip you with the essential habits, awareness and assurance for every road ahead.",
+            "courseList": [
+              {
+                "number": "01",
+                "slug": "beginner-driving-course",
+                "title": "Novice Driver Foundation",
+                "description": "Complete foundational coaching for fresh motorists covering vehicle handling, street signals, reverse parking and basic safety.",
+                "image": "/images/service-driving-courses.webp",
+                "icon": "PiSteeringWheelBold",
+                "href": "#contact"
+              },
+              {
+                "number": "02",
+                "slug": "driving-license-training",
+                "title": "Official License Preparation",
+                "description": "Receive certified instruction and intensive simulated test practice to clear your governmental driving exam with total comfort.",
+                "image": "/images/service-driving-license.webp",
+                "icon": "IoIdCard",
+                "href": "#contact"
+              },
+              {
+                "number": "03",
+                "slug": "vehicle-safety-training",
+                "title": "Car Safety & Mechanics",
+                "description": "Understand crucial mechanical checks, emergency hazard anticipation and proactive defensive techniques across diverse road environments.",
+                "image": "/images/service-car-mechanics.webp",
+                "icon": "IoShieldCheckmark",
+                "href": "#contact"
+              },
+              {
+                "number": "04",
+                "slug": "refresher-driving-lessons",
+                "title": "Confidence Booster Sessions",
+                "description": "Personalized skill-enhancing drives for licensed adults wanting to refine urban maneuvering, parallel parking and traffic navigation.",
+                "image": "/images/service-refresher-driving.webp",
+                "icon": "IoSpeedometer",
+                "href": "#contact"
+              },
+              {
+                "number": "05",
+                "slug": "intensive-fast-track-course",
+                "title": "Accelerated Express Program",
+                "description": "Condensed everyday behind-the-wheel coaching created to help you perfect exam maneuvers, roadway safety and obtain your permit swiftly.",
+                "image": "/images/service-fast-track.webp",
+                "icon": "IoCar",
+                "href": "#contact"
+              }
+            ]
+          }
+        }
+      },
+      "whyChooseUs": {
+        "variants": {
+          "DriveLearnWhyChooseUs1": {
+            "eyebrow": "The DriveLearn Edge",
+            "title": {
+              "part1": "Your Premier Choice",
+              "part2": "For Motoring Success"
+            },
+            "description": "We stay devoted to delivering top-tier vehicular instruction with certified mentors, updated dual-control automobiles and learner-centric coaching.",
+            "centerImage": "/images/car-steering-2.webp",
+            "leftFeatures": [
+              {
+                "number": "01",
+                "title": "Accredited",
+                "description": "We operate as a state-approved driving academy, maintaining secure, compliant and structured training.",
+                "icon": "FaAward",
+                "iconBg": "red",
+                "borderSide": "left",
+                "borderColor": "red",
+                "align": "left"
+              },
+              {
+                "number": "02",
+                "title": "Master Instructors",
+                "description": "Train with patient authorized educators who make motoring straightforward, safe and enjoyable.",
+                "icon": "IoPeople",
+                "iconBg": "navy",
+                "borderSide": "left",
+                "borderColor": "navy",
+                "align": "left"
+              },
+              {
+                "number": "03",
+                "title": "Modern Dual-Control Fleet",
+                "description": "Drive in well-equipped current-year training automobiles for an optimal learning session.",
+                "icon": "IoCar",
+                "iconBg": "red",
+                "borderSide": "left",
+                "borderColor": "red",
+                "align": "left"
+              }
+            ],
+            "rightFeatures": [
+              {
+                "number": "04",
+                "title": "Safe & Defensive Methods",
+                "description": "We emphasize genuine street practical experience with protective habits and caution as primary goals.",
+                "icon": "IoShieldCheckmark",
+                "iconBg": "navy",
+                "borderSide": "right",
+                "borderColor": "navy",
+                "align": "right"
+              },
+              {
+                "number": "05",
+                "title": "Flexible Timetables",
+                "description": "Pick lesson timings that fit smoothly into your calendar, featuring weekday and weekend choices.",
+                "icon": "IoCalendar",
+                "iconBg": "red",
+                "borderSide": "right",
+                "borderColor": "red",
+                "align": "right"
+              },
+              {
+                "number": "06",
+                "title": "Clear Pricing",
+                "description": "Access first-rate accredited driver education featuring honest fees and zero surprise charges.",
+                "icon": "FaHandHoldingDollar",
+                "iconBg": "navy",
+                "borderSide": "right",
+                "borderColor": "navy",
+                "align": "right"
+              }
+            ]
+          }
+        }
+      },
+      "stats": {
+        "variants": {
+          "DriveLearnStats1": {
+            "bgImage": "/images/stats-cars-bg.webp",
+            "statsList": [
+              {
+                "id": 1,
+                "verticalLabel": "TRAINED",
+                "target": 25,
+                "suffix": "k+",
+                "title": "Licensed Graduates",
+                "icon": "TbSteeringWheel"
+              },
+              {
+                "id": 2,
+                "verticalLabel": "EXPERTS",
+                "target": 45,
+                "suffix": "+",
+                "title": "Certified Instructors",
+                "icon": "TbUserStar"
+              },
+              {
+                "id": 3,
+                "verticalLabel": "FLEET SIZE",
+                "target": 60,
+                "suffix": "+",
+                "title": "Dual-Control Vehicles",
+                "icon": "TbMap2"
+              },
+              {
+                "id": 4,
+                "verticalLabel": "EXAM SUCCESS",
+                "target": 98,
+                "suffix": "%",
+                "title": "First-Time Pass Rate",
+                "icon": "TbUserCheck"
+              }
+            ]
+          }
+        }
+      },
+      "testimonial": {
+        "variants": {
+          "DriveLearnTestimonial1": {
+            "bgImage": "/images/testimonial-bg-girl.webp",
+            "eyebrow": "Testimonials",
+            "title": {
+              "part1": "Voices &",
+              "part2": "Experiences"
+            },
+            "description": "Genuine feedback from students who developed complete assurance and highway ability with us.",
+            "rating": {
+              "text": "Excellent",
+              "score": "4.8",
+              "totalStars": 5,
+              "activeStars": 4
+            },
+            "cta": {
+              "text": "Enquire Now",
+              "href": "#contact"
+            },
+            "testimonials": [
+              {
+                "title": "Exceptional Driving Training Experience Here.",
+                "review": "The mentors here are incredibly patient and break down complex maneuvers with utmost clarity. Their structured lessons gave me genuine highway confidence. I wholeheartedly endorse this driving academy to everyone.",
+                "name": "Amit Sharma",
+                "location": "NEW DELHI",
+                "avatar": "/images/reviewer-amit.webp",
+                "rating": 5
+              },
+              {
+                "title": "Outstanding Coaches & Fleet.",
+                "review": "My learning journey here proved thoroughly rewarding. The team is genuinely attentive and the vehicles are spotless and safe. Practicing felt effortless and reassuring. Very highly recommended!",
+                "name": "Priya Verma",
+                "location": "GURGAON",
+                "avatar": "/images/reviewer-priya.webp",
+                "rating": 5
+              },
+              {
+                "title": "Cleared Test First Time!",
+                "review": "My trainer conducted intensive trials on exact examination circuits, helping me clear my license test seamlessly on my opening attempt. Their teaching methodology is truly brilliant.",
+                "name": "Rohit Malhotra",
+                "location": "NOIDA",
+                "avatar": "/images/reviewer-marcus.webp",
+                "rating": 5
+              },
+              {
+                "title": "Ideal For Beginners.",
+                "review": "I was extremely anxious about driving, but the reassuring atmosphere and gradual coaching dissolved all my anxiety. Sincere gratitude to the DriveLearn team!",
+                "name": "Sneha Patel",
+                "location": "NEW DELHI",
+                "avatar": "/images/reviewer-sarah.webp",
+                "rating": 5
+              }
+            ]
+          }
+        }
+      },
+      "faqs": {
+        "variants": {
+          "DriveLearnFaq1": {
+            "eyebrow": "Got Inquiries?",
+            "title": {
+              "part1": "Helpful Common",
+              "part2": "Answers"
+            },
+            "description": "Discover helpful answers to frequent inquiries regarding driving courses, exam scheduling, trainer accreditations, and dual-control cars.",
+            "supportCard": {
+              "title": "Need Extra Guidance?",
+              "description": "Our customer service desk is open all week to assist your licensing and driving journey.",
+              "phone": "+1 000000000",
+              "email": "info@xyz.com",
+              "buttonText": "Speak With Us",
+              "buttonHref": "tel:+1000000000"
+            },
+            "faqList": [
+              {
+                "id": "faq-1",
+                "question": "What criteria must I fulfill before booking driving lessons?",
+                "answer": "To commence behind-the-wheel instruction, you need an active Learner's Permit or temporary driver's license from local authorities. Carry your official permit along with flat, comfortable footwear for your initial session."
+              },
+              {
+                "id": "faq-2",
+                "question": "Are the academy vehicles fully dual-controlled and insured?",
+                "answer": "Yes, definitely! All vehicles across our fleet feature certified dual-control pedal systems (emergency passenger brakes) and carry complete commercial insurance coverage to guarantee total security for novice drivers."
+              },
+              {
+                "id": "faq-3",
+                "question": "How many lesson hours do learners generally take prior to testing?",
+                "answer": "The total duration varies according to each learner's progression and confidence. Typically, beginners take about 15 to 25 hours of certified training coupled with family practice to master reliable exam-level techniques."
+              },
+              {
+                "id": "faq-4",
+                "question": "May I hire an academy car for my license examination?",
+                "answer": "Yes! Our Test Day Assistance options include a preparatory refresher lesson just prior to examination, dedicated car rental, and on-site guidance from your instructor at the test center."
+              },
+              {
+                "id": "faq-5",
+                "question": "Do you teach both manual and automatic transmission cars?",
+                "answer": "Yes, our training fleet offers up-to-date manual as well as automatic cars. You may select your desired gearbox format during enrolment and switch anytime during your package."
+              },
+              {
+                "id": "faq-6",
+                "question": "What is your notice requirement for session cancellations?",
+                "answer": "We recognize routines can shift! We kindly request 24 hours prior notification to modify or cancel appointments fee-free, allowing our instructors to make slots available for fellow students."
+              },
+              {
+                "id": "faq-7",
+                "question": "Are instructors officially certified and background-screened?",
+                "answer": "Every instructor at DriveLearn is state-authorized, thoroughly criminal-record screened, and holds defensive driving credentials with substantial patient teaching track records."
+              },
+              {
+                "id": "faq-8",
+                "question": "Do you provide complimentary home pick-up and drop-off?",
+                "answer": "Yes, we provide free doorstep pick-up and return from your residence, college, or office situated within our standard regional coverage perimeter."
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
