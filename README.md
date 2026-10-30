@@ -1,6 +1,6 @@
-# DriveLearn - Driving School Landing Page
+# learn-drive-landingpage
 
-A modern, high-converting, responsive landing page for an accredited driving school academy, crafted with Next.js 16 App Router, React 19, Tailwind CSS v4, Framer Motion, and shadcn/ui components.
+A modern, high-converting, responsive driving school landing page, crafted with Next.js 16 App Router, React 19, Tailwind CSS v4, Framer Motion, and shadcn/ui components.
 
 ---
 
